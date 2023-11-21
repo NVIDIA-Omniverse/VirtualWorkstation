@@ -1,0 +1,99 @@
+#displayed application name
+name = 'myApp'
+
+#displayed application name in smaller card and library view
+shortName = 'myApp'
+
+# version must be semantic
+version = '4.0.1'
+
+# enum of 'app', 'connectors' and 'experience' for now
+# ["collaboration", "connector", "app", "experience", "extension", "content-pack" ]
+kind = 'app'
+
+#boolean for if this version is the latest version
+latest = true
+
+#unique identifier for component, all lower case, persists between versions
+slug = 'myapp'
+
+#set to true if you are uploading hyperlinks instead of actual packages.
+externalHyperlink = false
+
+#displayed before application name in launcher
+productArea = 'Omniverse'
+
+#category of content
+#["File Management", "Connectors", "Apps", "Experiences", "Extensions", "Content]
+category = 'Apps'
+
+
+[developer]
+#name of developer
+name = 'Cool Developer'
+# hyperlink on developer name (can be left as empty string)
+url = 'https://www.nvidia.com/en-us/'
+
+[publisher]
+#name of publisher
+name = 'Pitts Inc'
+# hyperlink on publisher name (can be left as empty string)
+url = 'https://www.nvidia.com/en-us/'
+
+#values for filtering content, not implemented yet
+tags = [
+  'construction',
+  'engineering',
+  'much wow.'
+]
+
+#string array, each line is a new line, keep lines under 256 char and keep lines under 4
+description = [
+    'USD Sample App',
+    'For synergistic collaboration',
+    'Web 3.0 hyperconverged cloud XR'
+]
+
+# required for `content-pack` `kind`
+# array of images used for content gallery. 
+gallery = [ "https://launcher-integ.s3.us-east-2.amazonaws.com/mycontent/4.0.3/background.png" ]
+
+# the format of the content pack.
+# "usd | mdl | img | animations | mixed"
+format = "usd"
+
+# defines what dependencies must be installed if this content is an extension
+extensionDependencies = [ "Kit" ]
+
+[contractLicenseAgreement]
+title = "FREE STUFF 4 U!"
+url = "https://www.nvidia.com"
+
+[assetSpecs]
+# represents the number of meshes for this content
+meshes = 0
+# defines the short description for meshes
+meshDetail = "hey kid, I'm a computer! Stop all the downloading!"
+# represents the number of textures for this content
+textures = 0
+# defines the short description for textures
+textureDetail = "texture details"
+# represents the number of materials for this content
+materials = 0
+# represents the number of animations for this content
+animations = 0
+rigged = false
+
+#array of links for more info on product
+[[links]]
+title = 'Release Notes'
+url = 'https://mybucket.s3.amazonaws.com/myApp/1.0.0/release.html'
+[[links]]
+title = 'Documentation'
+url = 'https://mybucket.s3.amazonaws.com/myApp/1.0.0/doc.html'
+[[links]]
+title = "Tutorials"
+url = "https://mybucket.s3.amazonaws.com/myApp/1.0.0/tutorials.html"
+[[links]]
+title = 'Forums'
+url = 'https://nvidia.com/forums/myApp'

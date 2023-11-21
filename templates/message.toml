@@ -1,0 +1,24 @@
+# send email to dl shared-pipeline-myapp@nvidia.com
+email = true
+# list forum id
+forums = [
+ "18812",
+ "344"
+]
+# list jira issue ID
+jira = [
+"OM-26226"
+]
+# list of phone numbers to text update of changelog
+# phone number needs country code. EX: US = 1
+text = [
+  "14043334444",
+  "12093334444"
+]
+# list of slack channels to update with changelog
+slack = [
+  "C01RMPL7VC5"
+]
+# OPTIONAL
+# override the CHANGELOG.MD with a new message
+override_message = "The ID of a project that returned users and groups must have permission to view. To include multiple projects, provide an ampersand-separated list. For example, projectId=10000&projectId=10001. This parameter is only used when fieldId is present."

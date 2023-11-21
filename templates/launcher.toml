@@ -1,0 +1,183 @@
+# show this in the library, default is true
+showInLibrary = true
+
+## install and launch instructions by environment
+[defaults.windows-x86_32]
+entrypoint = "${productRoot}/relative/path/to/executable"
+args = []
+
+[defaults.windows-x86_32.environment]
+
+[defaults.windows-x86_32.install]
+pre-install = "${productRoot}/relative/path/in/scripts/directory"
+pre-install-args = []
+install = "*might be unused if everything is statically linked and supports SxS*"
+install-args = []
+post-install = "${productRoot}/relative/path/in/scripts/directory  (this might be things like register things on path or add a firewall rule, etc)"
+post-install-args = []
+
+[defaults.windows-x86_32.uninstall]
+pre-uninstall = "${productRoot}/relative/path/in/scripts/directory"
+pre-uninstall-args = []
+uninstall = "*might be unused if everything is statically linked and supports SxS*"
+uninstall-args = []
+post-uninstall = "${productRoot}/relative/path/in/scripts/directory  (this might be things like register things on path or add a firewall rule, etc)"
+post-uninstall-args = []
+
+[defaults.windows-x86_32.register]
+command = '${productRoot}/relative/path/in/scripts/directory/script'
+args = []
+
+[defaults.windows-x86_32.unregister]
+command = '${productRoot}/relative/path/in/scripts/directory/script'
+args = []
+
+[defaults.windows-x86_64]
+entrypoint = "${productRoot}/relative/path/to/executable"
+args = []
+
+[defaults.windows-x86_64.environment]
+
+[defaults.windows-x86_64.install]
+pre-install = "${productRoot}/relative/path/in/scripts/directory"
+pre-install-args = []
+install = "*might be unused if everything is statically linked and supports SxS*"
+install-args = []
+post-install = "${productRoot}/relative/path/in/scripts/directory  (this might be things like register things on path or add a firewall rule, etc)"
+post-install-args = []
+
+[defaults.windows-x86_64.uninstall]
+pre-uninstall = "${productRoot}/relative/path/in/scripts/directory"
+pre-uninstall-args = []
+uninstall = "*might be unused if everything is statically linked and supports SxS*"
+uninstall-args = []
+post-uninstall = "${productRoot}/relative/path/in/scripts/directory  (this might be things like register things on path or add a firewall rule, etc)"
+post-uninstall-args = []
+
+[defaults.windows-x86_64.register]
+command = '${productRoot}/relative/path/in/scripts/directory/script'
+args = []
+
+[defaults.windows-x86_64.unregister]
+command = '${productRoot}/relative/path/in/scripts/directory/script'
+args = []
+
+[defaults.windows-aarch64]
+entrypoint = "${productRoot}/relative/path/to/executable"
+args = []
+[defaults.windows-aarch64.environment]
+
+[defaults.windows-aarch64.install]
+pre-install = "${productRoot}/relative/path/in/scripts/directory"
+pre-install-args = []
+install = "*might be unused if everything is statically linked and supports SxS*"
+install-args = []
+post-install = "${productRoot}/relative/path/in/scripts/directory  (this might be things like register things on path or add a firewall rule, etc)"
+post-install-args = []
+
+[defaults.windows-aarch64.uninstall]
+pre-uninstall = "${productRoot}/relative/path/in/scripts/directory"
+pre-uninstall-args = []
+uninstall = "*might be unused if everything is statically linked and supports SxS*"
+uninstall-args = []
+post-uninstall = "${productRoot}/relative/path/in/scripts/directory  (this might be things like register things on path or add a firewall rule, etc)"
+post-uninstall-args = []
+
+[defaults.windows-aarch64.register]
+command = '${productRoot}/relative/path/in/scripts/directory/script'
+args = []
+
+[defaults.windows-aarch64.unregister]
+command = '${productRoot}/relative/path/in/scripts/directory/script'
+args = []
+
+[defaults.linux-x86_32]
+entrypoint = "${productRoot}/relative/path/to/executable"
+args = []
+[defaults.linux-x86_32.environment]
+
+[defaults.linux-x86_32.install]
+pre-install = "${productRoot}/relative/path/in/scripts/directory"
+pre-install-args = []
+install = "*might be unused if everything is statically linked and supports SxS*"
+install-args = []
+post-install = "${productRoot}/relative/path/in/scripts/directory  (this might be things like register things on path or add a firewall rule, etc)"
+post-install-args = []
+
+[defaults.linux-x86_32.uninstall]
+pre-uninstall = "${productRoot}/relative/path/in/scripts/directory"
+pre-uninstall-args = []
+uninstall = "*might be unused if everything is statically linked and supports SxS*"
+uninstall-args = []
+post-uninstall = "${productRoot}/relative/path/in/scripts/directory  (this might be things like register things on path or add a firewall rule, etc)"
+post-uninstall-args = []
+
+[defaults.linux-x86_32.register]
+command = '${productRoot}/relative/path/in/scripts/directory/script'
+args = []
+
+[defaults.linux-x86_32.unregister]
+command = '${productRoot}/relative/path/in/scripts/directory/script'
+args = []
+
+[defaults.linux-x86_64]
+entrypoint = "${productRoot}/relative/path/to/executable"
+args = []
+[defaults.linux-x86_64.environment]
+
+[defaults.linux-x86_64.install]
+pre-install = "${productRoot}/relative/path/in/scripts/directory"
+pre-install-args = []
+install = "*might be unused if everything is statically linked and supports SxS*"
+install-args = []
+post-install = "${productRoot}/relative/path/in/scripts/directory  (this might be things like register things on path or add a firewall rule, etc)"
+post-install-args = []
+
+[defaults.linux-x86_64.uninstall]
+pre-uninstall = "${productRoot}/relative/path/in/scripts/directory"
+pre-uninstall-args = []
+uninstall = "*might be unused if everything is statically linked and supports SxS*"
+uninstall-args = []
+post-uninstall = "${productRoot}/relative/path/in/scripts/directory  (this might be things like register things on path or add a firewall rule, etc)"
+post-uninstall-args = []
+
+[defaults.linux-x86_64.register]
+command = '${productRoot}/relative/path/in/scripts/directory/script'
+args = []
+
+[defaults.linux-x86_64.unregister]
+command = '${productRoot}/relative/path/in/scripts/directory/script'
+args = []
+
+[defaults.linux-aarch64]
+entrypoint = "${productRoot}/relative/path/to/executable"
+args = []
+[defaults.linux-aarch64.environment]
+
+[defaults.linux-aarch64.install]
+pre-install = "${productRoot}/relative/path/in/scripts/directory"
+pre-install-args = []
+install = "*might be unused if everything is statically linked and supports SxS*"
+install-args = []
+post-install = "${productRoot}/relative/path/in/scripts/directory  (this might be things like register things on path or add a firewall rule, etc)"
+post-install-args = []
+
+[defaults.linux-aarch64.uninstall]
+pre-uninstall = "${productRoot}/relative/path/in/scripts/directory"
+pre-uninstall-args = []
+uninstall = "*might be unused if everything is statically linked and supports SxS*"
+uninstall-args = []
+post-uninstall = "${productRoot}/relative/path/in/scripts/directory  (this might be things like register things on path or add a firewall rule, etc)"
+post-uninstall-args = []
+
+[defaults.linux-aarch64.register]
+command = '${productRoot}/relative/path/in/scripts/directory/script'
+args = []
+
+[defaults.linux-aarch64.unregister]
+command = '${productRoot}/relative/path/in/scripts/directory/script'
+args = []
+
+[defaults.osx-x86_64]
+
+[defaults.osx-aarch64]
