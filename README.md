@@ -1,5 +1,5 @@
 # Omniverse Virtual Workstation
 Required supporting files to successfully deploy an Omniverse Virtual Workstation.
 
-- [Microsoft Azure ARM Template](https://github.com/NVIDIA-Omniverse/VirtualWorkstation/releases/download/public/nvidia-ovw-azure-arm_template.json)
+- [Download the Microsoft Azure ARM Template](https://github.com/NVIDIA-Omniverse/VirtualWorkstation/releases/download/public/nvidia-ovw-azure-arm_template.json)
 
