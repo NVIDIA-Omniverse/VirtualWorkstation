@@ -1,3 +1,9 @@
+## :warning: Deprecation Notice
+
+**This repository will be removed on May 26, 2025.**
+
+Please see [AWS](https://aws.amazon.com/marketplace/search/results?searchTerms=nvidia+omniverse&CREATOR=c568fe05-e33b-411c-b0ab-047218431da9&filters=CREATOR) or [Azure](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/nvidia.ov-developer-workstation) for additional information on deploying Omniverse Development Workstations on Cloud Service Providers (CSPs).
+
 # Omniverse Virtual Workstation
 
 Required template file to successfully deploy an Omniverse Virtual Workstation.
